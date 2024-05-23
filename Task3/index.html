@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <h1 style="font-family: 'Courier New', Courier, monospace; font-size: 40px;">SIKHAKOLLI SHANKAR</h1>
+    </header>
+
+    <nav class="bigsize">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <nav class="smallsize">
+        <ul>
+            <li><a href="#">Navigation Menu</a>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="about-me" id="about">
+            <h2>About Me</h2>
+            <p>A motivated programmer and developer with a keen interest in acquiring versatile skills to address dynamic business needs. Passionate about exploring cutting-edge technologies and adept at undertaking machine learning and web development projects.</p>
+        </div>
+        <br>
+        <div class="education" id="education">
+            <h2>Education Details</h2>
+            <div class="btech">
+                <h3>B.Tech</h3>
+                <p><span style="font-size: 20px;">Institution</span> : Jawaharlal Nehru technological University, Kakinada</p>
+                <p><span style="font-size: 20px;">Years</span> : 2021-present</p>
+                <p><span style="font-size: 20px;">GPA</span> : 8.81</p>
+            </div>
+            <hr>
+            <div class="intermediate">
+                <h3>Intermediate</h3>
+                <p><span style="font-size: 20px;">College</span> : Tirumala Junior College</p>
+                <p><span style="font-size: 20px;">Years</span> : 2019-2021</p>
+                <p><span style="font-size: 20px;">Percentage</span> : 97.8</p>
+            </div>
+            <hr>
+            <div class="ssc">
+                <h3>SSC</h3>
+                <p><span style="font-size: 20px;">School</span> : Sri Sadguru Vidyalayam</p>
+                <p><span style="font-size: 20px;">Years</span> : 2018-2019</p>
+                <p><span style="font-size: 20px;">GPA</span> : 10/10</p>
+            </div>
+        </div>
+        <br>
+        <div class="projects" id="projects">
+            <h2>Personal Projects</h2>
+            <h3>Banglore Home Price Prediction <a href="#"><img src="linkarrow.png" alt="link"></a></h3>
+            <p>Given a set of house features, the model predicts the approximate price for houses in the city of Bangalore.<br> Additionally, I have created a web interface using Flask for predicting the price. </p>
+            <hr>
+            <h3>Netflix Clone <a href="https://github.com/SikhakolliShankar/Netflix-clone" target="_blank"><img src="linkarrow.png" alt="link"></a></h3>
+            <p>The Front End Netflix Clone Project is an endeavor to replicate the user interface and design of the renowned online streaming platform, Netflix.<br>This project involved meticulously recreating the visual elements, layout, and functionality of various Netflix web pages using HTML, CSS, and JavaScript. </p>
+        </div>
+        <br>
+        <div class="achievements" id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Golden Nadge in Hackerrank</li>
+                <li>5 - Star Rating in Python in 'HackerRank'</li>
+                <li>3-star in Codechef</li>
+                <li>250+ problems in leetcode</li>
+            </ul>
+        </div>
+    </main>
+    <br>
+    <footer>
+        <div class="contact" id="contact">
+            <h2>Contact Details: </h2>
+            <p>Email: <a href="mailto:sikhakollishankar16@gmail.com" style="text-decoration: none;" target="_blank"><b>sikhakollishankar16@gmail.com</b></a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sikhakolli-shankar-5b7889263/" target="_blank"><b>Sikhakolli Shankar</b></a></p>
+            <p>Phone: +91 8142809837</p>
+            <p>GitHub: <a href="https://github.com/SikhakolliShankar" target="_blank"><b>SikhakolliShankar</b></a></p>
+        </div>
+
+        <h2>Contact Form</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
