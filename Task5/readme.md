@@ -1,6 +1,4 @@
-Sure! Here’s a detailed and enthusiastic `README.md` for your React Vite Calculator application:
 
-```markdown
 # Simple Calculator
 
 ![image](https://github.com/SikhakolliShankar/Mainflow-Technologies/assets/115877940/8412b8a5-710a-43d2-bb89-556eb2966612)
@@ -32,7 +30,7 @@ To get started with the Simple Calculator application, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   [git clone https://github.com/Sikhakolli/simple-calculator.git](https://github.com/SikhakolliShankar/Mainflow-Technologies/tree/e292bfb4068e64818f8292096b77ad93c4e221a0/Task5)
+   https://github.com/SikhakolliShankar/Mainflow-Technologies/tree/e292bfb4068e64818f8292096b77ad93c4e221a0/Task5
    ```
 
 2. **Navigate to the project directory:**
@@ -84,9 +82,6 @@ We welcome contributions to make this calculator even better! If you have any su
 
 5. **Open a pull request.**
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📧 Contact
 
@@ -95,4 +90,3 @@ If you have any questions or want to reach out, feel free to contact me at [sikh
 ---
 
 Thank you for checking out the Simple Calculator application! Happy calculating! 😊
-```
